@@ -1,4 +1,5 @@
 [rewrite_local]
+
 ^https?:\/\/api-v3\.speedtest\.cn\/user\/info.*? url script-response-body https://raw.githubusercontent.com/csk9166/QX/main/Wangsuguanjai.js
 
 
