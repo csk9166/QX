@@ -24,7 +24,7 @@
 
 
 # 去重后的hostname，将对以下域名进行MITM（MAN-IN-THE-MIDDLE：中间人攻击）
-hostname = ad.12306.cn, intl.iqiyi.com, list-app-m.i4.cn, m.baidu.com, *.tieba.baidu.com, pan.baidu.com, baidu.com, appwk.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, wrapper.cyapi.cn, gw.csdn.net, app-gw.csdn.net, img.alicdn.com, heic.alicdn.com, ossgw.alicdn.com, gw.alicdn.com, m.360buyimg.com, m.jd.com, dns.jd.com, api.m.jd.com, m.jd.com, appconf.mail.163.com, p.du.163.com, support.you.163.com, router-app-api.jdcloud.com, jdread-api.jd.com, richmanrules.ksedt.com, api.jxedt.com, richmanapi.jxedt.com, *.kakamobi.cn, open.e.kuaishou.com, qde.qunar.com, mp.weixin.qq.com, weixin110.qq.com, wxs-weixin.sd.zhumanggroup.com, portal-xunyou.qingcdn.com, *.alicdn.com, youtubei.googleapis.com,  rr*.googlevideo.com, *.10086.*, m.client.10010.com, p*.pstatp.com, pglstatp-toutiao.com, pangolin-sdk-toutiao.com, sf6-be-pack.pglstatp-toutiao.com, reading-hl.snssdk.com, aweme.snssdk.com, i.snssdk.com.*, gurd.snssdk.com.*, *.wfdata.*, i-lq.snssdk.com.*, *.qunar.*, *.tie a.*
+hostname = ad.12306.cn, intl.iqiyi.com, list-app-m.i4.cn, m.baidu.com, *.tieba.baidu.com, pan.baidu.com, baidu.com, appwk.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, wrapper.cyapi.cn, gw.csdn.net, app-gw.csdn.net, img.alicdn.com, heic.alicdn.com, ossgw.alicdn.com, gw.alicdn.com, m.360buyimg.com, m.jd.com, dns.jd.com, api.m.jd.com, m.jd.com, appconf.mail.163.com, p.du.163.com, support.you.163.com, router-app-api.jdcloud.com, jdread-api.jd.com, richmanrules.ksedt.com, api.jxedt.com, richmanapi.jxedt.com, *.kakamobi.cn, open.e.kuaishou.com, qde.qunar.com, mp.weixin.qq.com, weixin110.qq.com, wxs-weixin.sd.zhumanggroup.com, portal-xunyou.qingcdn.com, *.alicdn.com, youtubei.googleapis.com,  rr*.googlevideo.com, *.10086.*, m.client.10010.com, p*.pstatp.com, pglstatp-toutiao.com, pangolin-sdk-toutiao.com, sf6-be-pack.pglstatp-toutiao.com, reading-hl.snssdk.com, aweme.snssdk.com, i.snssdk.com.*, gurd.snssdk.com.*, *.wfdata.*, i-lq.snssdk.com.*, *.pornhub.com, *.qunar.*, *.tie a.*
 
 
 
@@ -237,6 +237,12 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 
 
 
+# >>>>>>>>>>>>>>> ✅ P ✅ <<<<<<<<<<<<<<
+https://cn.pornhub.com
+^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads url reject-dict
+^https?:/\/(cn|www)\.pornhub\.com\/($|(view|video).*$) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/pornhub.js
+
+
 # >>>>>>>>>>>>>>> ✅ Q ✅ <<<<<<<<<<<<<<
 
 # > 去哪儿
@@ -244,7 +250,7 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 
 
 
-# >>>>>>>>>>>>>>> ✅ Q ✅ <<<<<<<<<<<<<<
+# >>>>>>>>>>>>>>> ✅ T ✅ <<<<<<<<<<<<<<
 
 # > 淘宝
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ url reject-200
