@@ -24,7 +24,7 @@
 
 
 # 去重后的hostname，将对以下域名进行MITM（MAN-IN-THE-MIDDLE：中间人攻击）
-hostname = ad.12306.cn, intl.iqiyi.com, list-app-m.i4.cn, m.baidu.com, *.tieba.baidu.com, pan.baidu.com, baidu.com, appwk.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, wrapper.cyapi.cn, gw.csdn.net, app-gw.csdn.net, img.alicdn.com, heic.alicdn.com, ossgw.alicdn.com, asp.cntv.myalicdn.com, m.360buyimg.com, m.jd.com, dns.jd.com, api.m.jd.com, m.jd.com, appconf.mail.163.com, p.du.163.com, support.you.163.com, router-app-api.jdcloud.com, jdread-api.jd.com, richmanrules.ksedt.com, api.jxedt.com, richmanapi.jxedt.com, *.kakamobi.cn, open.e.kuaishou.com, qde.qunar.com, mp.weixin.qq.com, weixin110.qq.com, wxs-weixin.sd.zhumanggroup.com, portal-xunyou.qingcdn.com, youtubei.googleapis.com,  rr*.googlevideo.com, *.10086.*, m.client.10010.com, p*.pstatp.com, pglstatp-toutiao.com, pangolin-sdk-toutiao.com, sf6-be-pack.pglstatp-toutiao.com, reading-hl.snssdk.com, aweme.snssdk.com, i.snssdk.com.*, gurd.snssdk.com.*, *.wfdata.*, i-lq.snssdk.com.*, *.pornhub.com, *.qunar.*, *.tie a.*
+hostname = ad.12306.cn, intl.iqiyi.com, list-app-m.i4.cn, m.baidu.com, *.tieba.baidu.com, pan.baidu.com, baidu.com, appwk.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, wrapper.cyapi.cn, gw.csdn.net, app-gw.csdn.net, img.alicdn.com, heic.alicdn.com, ossgw.alicdn.com, asp.cntv.myalicdn.com, m.360buyimg.com, m.jd.com, dns.jd.com, api.m.jd.com, m.jd.com, appconf.mail.163.com, p.du.163.com, support.you.163.com, router-app-api.jdcloud.com, jdread-api.jd.com, richmanrules.ksedt.com, api.jxedt.com, richmanapi.jxedt.com, *.kakamobi.cn, open.e.kuaishou.com, qde.qunar.com, mp.weixin.qq.com, weixin110.qq.com, wxs-weixin.sd.zhumanggroup.com, portal-xunyou.qingcdn.com, youtubei.googleapis.com,  rr*.googlevideo.com, *.10086.*, m.client.10010.com, pglstatp-toutiao.com, pangolin-sdk-toutiao.com, sf6-be-pack.pglstatp-toutiao.com, reading-hl.snssdk.com, aweme.snssdk.com, i.snssdk.com.*, gurd.snssdk.com.*, *.wfdata.*, i-lq.snssdk.com.*, *.pornhub.com, *.qunar.*, *.tie a.*
 
 
 
@@ -132,7 +132,7 @@ https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 url reject
 
 
 
-# >>>>>>>>>>>>>>> ✅ G✅ <<<<<<<<<<<<<<
+# >>>>>>>>>>>>>>> ✅ G ✅ <<<<<<<<<<<<<<
 
 # > 谷歌
 ^https?:\/\/.+\.googleapis.com/.+ad_break url reject-img
@@ -146,6 +146,8 @@ https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 url reject
 # ^https?:\/\/.+\.googlevideo\.com\/ptracking url reject-img
 
 
+
+# >>>>>>>>>>>>>>> ✅ J ✅ <<<<<<<<<<<<<<
 # > 京东
 ^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/202220\/24\/21575\/134711\/625b821bE5d642d73\/77636692989bd2be\.jpg url reject
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/96405\/17\/28473\/168578\/625cd144E7997a990\/8233ce8a10c4e463\.jpg url reject
@@ -328,15 +330,4 @@ https://cn.pornhub.com
 ^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3} url reject-img
 ^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer= url reject-img
 
-# > 字节跳动
-^https?:\/\/.+/img\/ad\.union\.api\/ url reject-200
-# ^https?:\/\/.+\.pstatp\.com\/img\/ad url reject-200
-^https?:\/\/.+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject-200
-^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ url reject-200
-^https?:\/\/.+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ url reject-200
-^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/ad\/ url reject
-^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/ url reject
-^https?:\/\/.+?\/img\/ad\.union\.api\/ url reject
-^https?:\/\/.+\.amemv\.com\/.+app_log url reject-img
-^https?:\/\/.+\.amemv\.com\/.+report url reject-img
-^https?:\/\/.+\.amemv\.com\/.+stats url reject-img
+
