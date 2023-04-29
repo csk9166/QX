@@ -6,7 +6,7 @@
 *******************************
 
 [rewrite_local]
-^https?:\/\/api-v3\.speedtest\.cn\/user\/info.*? url script-response-body WSGJ.js
+^https?:\/\/api-v3\.speedtest\.cn\/user\/info.*? url script-response-body https://raw.githubusercontent.com/csk9166/QX/main/WSGJ.js
 
 
 [mitm]
