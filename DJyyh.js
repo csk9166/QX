@@ -10,7 +10,7 @@
 
 
 [mitm]
-hostname = apphy2.djyule.com
+hostname = *.djyule.com
 
 *******************************/
 var body=$response.body;
