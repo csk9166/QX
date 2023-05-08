@@ -336,7 +336,7 @@ https://cn.pornhub.com
 ^https?:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/[0-9]{2}\/[A-Z0-9]{2}\/.+.jpg url reject-200
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject-200
 # 多个悬浮窗 感谢#热心网友分享
-^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\
+^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket url reject
 
 
 # > 中国联通
