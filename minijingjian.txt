@@ -245,9 +245,9 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 # > 发现页处理
 https://api.gotokeep.com/homepage/v\d/tab url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
 # > 课程预览页广告
-https://api.gotokeep.com/nuocha/course/v2/\w+/preview url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
+#https://api.gotokeep.com/nuocha/course/v2/\w+/preview url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
 # > 我的运动页面去除下方推荐
-https://api.gotokeep.com/sportpage/sport/v3/mysport url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
+#https://api.gotokeep.com/sportpage/sport/v3/mysport url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
 
 
 
