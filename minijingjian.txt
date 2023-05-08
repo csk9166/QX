@@ -240,12 +240,7 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad url reject
 # > 屏蔽广告预加载
 ^https?:\/\/api\.gotokeep\.com\/ads\/v\d\/ads\/preload url reject
-# > 屏蔽adbox
-^https?:\/\/api\.gotokeep\.com\/training\/box\/config url reject
-# > 发现页处理
-#https://api.gotokeep.com/homepage/v\d/tab url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
-# > 课程预览页广告
-#https://api.gotokeep.com/nuocha/course/v2/\w+/preview url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
+
 
 
 
