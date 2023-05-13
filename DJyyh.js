@@ -6,7 +6,7 @@
 *******************************
 
 [rewrite_local]
-^https?:\/\/apphy2\.djyule\.com\/userLogin_2022md5\.asp.*? url script-response-body Dj.js
+^https?:\/\/apphy2\.djyule\.com\/userLogin_2022md5\.asp.*? url script-response-body DJ.js
 
 
 [mitm]
