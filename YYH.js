@@ -9,7 +9,7 @@
 
 
 [mitm]
-hostname = apphy2.djyule.com
+hostname = *.djyule.*
 %¥
 *******************************/
 var body=$response.body;
