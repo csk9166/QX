@@ -8,7 +8,7 @@
 *******************************
 %¥
 [rewrite_local]
-^https?:\/\/apphy2\.djyule\.com\/userLogin_2022md5\.asp.*? url script-response-body DJ.js
+^https?:\/\/apphy2\.djyule\.com\/userLogin_2022md5\.asp.*? url script-response-body DJyyh.js
 
 
 [mitm]
