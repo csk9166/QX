@@ -1,12 +1,12 @@
 /******************************
 
-脚本名称:DJ
+脚本名称:DJ音乐盒
 
 
 *******************************
 
 [rewrite_local]
-^https?:\/\/apphy2\.djyule\.com\/userLogin_2022md5\.asp.*? url script-response-body https://raw.githubusercontent.com/csk9166/QX/main/DJyyh.js
+^https?:\/\/apphy2\.djyule\.com.*?.*? url script-response-body DJYYH.js
 
 
 [mitm]
@@ -14,7 +14,7 @@ hostname = apphy2.djyule.com
 
 *******************************/
 var body=$response.body;
-body = body.replace(/<HYVIP>0</HYVIP>/g,'<HYVIP>1</HYVIP>');
 body = body.replace(/<VIPdate></VIPdate>/g,'<VIPdate>2999/09/09</VIPdate>');
 body = body.replace(/<VIPgrade>0</VIPgrade>/g,'<VIPgrade>1</VIPgrade>');
+body = body.replace(/<HYVIP>0</HYVIP>/g,'<HYVIP>1</HYVIP>');
 $done(body);
