@@ -5,7 +5,7 @@
 *******************************
 %¥
 [rewrite_local]
-^https?:\/\/apphy2\.djyule\.com\/userLogin_2022md5\.asp.*? url script-response-body YYH.js
+^https?:\/\/apphy2\.djyule\.com\/userLogin_2022md5\.asp.*? url script-response-body https://raw.githubusercontent.com/csk9166/QX/main/YYH.js
 
 
 [mitm]
