@@ -6,7 +6,7 @@
 *******************************
 %¥
 [rewrite_local]
-^https?:\/\/api\.xunyou\.mobi\/api\/v1\/android\/sessions.*? url script-response-body Xunyoujsqjsq.js
+^https?:\/\/api\.xunyou\.mobi\/api\/v1\/android\/sessions.*? url script-response-body https://raw.githubusercontent.com/csk9166/QX/main/Xunyou.js
 
 
 [mitm]
