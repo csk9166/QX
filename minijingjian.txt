@@ -24,7 +24,7 @@
 
 
 # 去重后的hostname，将对以下域名进行MITM（MAN-IN-THE-MIDDLE：中间人攻击）
-hostname = ad.12306.cn, api.gotokeep.com, kad.gotokeep.com, intl.iqiyi.com, list-app-m.i4.cn, m.baidu.com, *.tieba.baidu.com, pan.baidu.com, baidu.com, appwk.baidu.com, enjoy.cdn-static.abchina.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, wrapper.cyapi.cn, gw.csdn.net, app-gw.csdn.net, img.alicdn.com, heic.alicdn.com, ossgw.alicdn.com, asp.cntv.myalicdn.com, m.360buyimg.com, m.jd.com, dns.jd.com, api.m.jd.com, m.jd.com, appconf.mail.163.com, p.du.163.com, support.you.163.com, router-app-api.jdcloud.com, jdread-api.jd.com, richmanrules.ksedt.com, api.jxedt.com, richmanapi.jxedt.com, *.kakamobi.cn, open.e.kuaishou.com, qde.qunar.com, mp.weixin.qq.com, weixin110.qq.com, wxs-weixin.sd.zhumanggroup.com, portal-xunyou.qingcdn.com, youtubei.googleapis.com,  rr*.googlevideo.com, *.10086.*, m.client.10010.com, pglstatp-toutiao.com, pangolin-sdk-toutiao.com, sf6-be-pack.pglstatp-toutiao.com, reading-hl.snssdk.com, aweme.snssdk.com, i.snssdk.com.*, gurd.snssdk.com.*, *.wfdata.*, i-lq.snssdk.com.*, *.pornhub.com, *.qunar.*, *.tie a.*
+hostname = ad.12306.cn, api.gotokeep.com, kad.gotokeep.com, intl.iqiyi.com, list-app-m.i4.cn, m.baidu.com, *.tieba.baidu.com, pan.baidu.com, baidu.com, appwk.baidu.com, enjoy.cdn-static.abchina.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, wrapper.cyapi.cn, gw.csdn.net, app-gw.csdn.net, img.alicdn.com, heic.alicdn.com, ossgw.alicdn.com, asp.cntv.myalicdn.com, m.360buyimg.com, m.jd.com, dns.jd.com, api.m.jd.com, m.jd.com, appconf.mail.163.com, p.du.163.com, support.you.163.com, router-app-api.jdcloud.com, jdread-api.jd.com, richmanrules.ksedt.com, api.jxedt.com, richmanapi.jxedt.com, *.kakamobi.cn, open.e.kuaishou.com, qde.qunar.com, mp.weixin.qq.com, weixin110.qq.com, wxs-weixin.sd.zhumanggroup.com, portal-xunyou.qingcdn.com, youtubei.googleapis.com,  rr*.googlevideo.com, *.10086.*, m.client.10010.com, pglstatp-toutiao.com, pangolin-sdk-toutiao.com, sf6-be-pack.pglstatp-toutiao.com, reading-hl.snssdk.com, aweme.snssdk.com, i.snssdk.com.*, gurd.snssdk.com.*, *.wfdata.*, i-lq.snssdk.com.*, *.pornhub.com, *.qunar.*, *.tie a.*, us.l.qq.com
 
 
 
@@ -224,6 +224,9 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 
 # > 快手
 ^https:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$ url reject
+
+# > 酷狗概念版
+^https?:\/\/us\.l\.qq\.com\/exapp\?adposcount\=1&block_effect\=0&count\=1&login_type\=2&support_^https?\=1&spsa\=1&posid\=2064444443783014&pass_through\=%7B%22nord%22%3A1%7D&ext\= url reject-200
 
 
 # > keep
