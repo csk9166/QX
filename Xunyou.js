@@ -1,8 +1,6 @@
 /******************************
-⚠️如果放远程，请把Xunyoujsqjsq.js替换成运程链接⚠️
-🫧脚本名称:迅游手游
-🫧建议配合working copy一起食用
-✈️working copy下载地址https://apps.apple.com/app/id896694807✈️
+
+脚本名称:迅游手游
 *******************************
 %¥
 [rewrite_local]
