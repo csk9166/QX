@@ -33,7 +33,7 @@
 	// 解析接口菜单框展开的速度（如果展开动画卡顿请设置0,单位是秒）
 	var developMenuSecond = 0.2;
 	// 解析接口（可多个）
-	const parseInterfaces =["https://player.iizny.com/?url=","https://jx.m3u8.tv/jiexi/?url=","https://okjx.cc/?url=","https://m2090.com/?url=","https://www.yemu.xyz/?url=","https://api.okjx.cc:3389/jx.php?url=","https://cv.htoo.vip/?url=","https://jiexi.555jiexi.net:555/player/?url="];
+	const parseInterfaces =["https://jx.m3u8.tv/jiexi/?url=","https://okjx.cc/?url=","https://m2090.com/?url=","https://www.yemu.xyz/?url=","https://api.okjx.cc:3389/jx.php?url=","https://cv.htoo.vip/?url=","https://jiexi.555jiexi.net:555/player/?url="];
 	/*
 	 * 非自定义区域
 	 * 以下代码勿动
