@@ -5,7 +5,7 @@
 *******************************
 %¥
 [rewrite_local]
-^https?:\/\/api-2\.quickg\.cc\/api\/v5\/user\/.*? url script-response-body Te.js
+^https?:\/\/api-2\.quickg\.cc\/api\/v5\/user\/.*? url script-response-body https://raw.githubusercontent.com/csk9166/QX/main/Te.js
 
 
 [mitm]
