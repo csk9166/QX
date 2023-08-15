@@ -5,7 +5,7 @@
 *******************************
 %¥
 [rewrite_local]
-^https?:\/\/api\.aliyundrive\.com\/adrive\/v1\/file\/getCleanInfo.*? url script-response-body https://github.com/csk9166/QX/main/Alirongliang
+^https?:\/\/api\.aliyundrive\.com\/adrive\/v1\/file\/getCleanInfo.*? url script-response-body https://github.com/csk9166/QX/main/Alirongliang.js
 
 
 [mitm]
