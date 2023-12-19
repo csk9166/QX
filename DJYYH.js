@@ -3,7 +3,7 @@
 
 
  [rewrite_local]
-^https://.*apphy2.djyule.com/userLogin_2022md5.asp get url script-response-body your_script.js
+^https://.*apphy2.djyule.com/userLogin_2022md5.asp get url script-response-body DJYYH.js
 
 [mitm]
 hostname = apphy2.djyule.com
