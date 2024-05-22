@@ -1,3 +1,4 @@
+```javascript
 /******************************
 脚本名称: DJ音乐盒
 *******************************
@@ -14,3 +15,4 @@ body = body.replace(/<VIPdate>.*?<\/VIPdate>/g, '<VIPdate>2999/09/09</VIPdate>')
 body = body.replace(/<VIPgrade>.*?<\/VIPgrade>/g, '<VIPgrade>1</VIPgrade>');
 body = body.replace(/<HYVIP>.*?<\/HYVIP>/g, '<HYVIP>1</HYVIP>');
 $done(body);
+```
