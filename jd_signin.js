@@ -1,4 +1,3 @@
-```javascript
 const url = "https://api.m.jd.com/client.action?functionId=signBeanAct";
 const method = "GET";
 const headers = {
@@ -35,4 +34,3 @@ $task.fetch(request).then(response => {
         "interval": 86400, // 每24小时运行一次
         "script": "jd_signin.js"
       }
-      ```
