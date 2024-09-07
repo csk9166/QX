@@ -425,7 +425,7 @@ hostname = patient-api.suh.cn, userpms-api.suh.cn, se-api.djiits.com, a.line.me,
 # 我的运动页面去除下方推荐
 ^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
 # 首页 - 移除首页活动标签
-^https:\/\/api\.gotokeep\.com\/config\/v3\/basic url script-response-body  https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Keep/Keep_remove_ads.js
+^https:\/\/api\.gotokeep\.com\/config\/v3\/basic url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Keep/Keep_remove_ads.js
 
 # > 快手
 # hostname = open.e.kuaishou.com
