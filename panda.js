@@ -5,7 +5,7 @@
 *******************************
 %¥
 [rewrite_local]
-^https?:\/\/gpanda\.co\.kr\/api\/getMobileDeviceList|https?:\/\/gpanda\.co\.kr\/api\/getMobileMyInfo|https?:\/\/gpanda\.co\.kr\/api\/getMobileMyPaymentInfo|https?:\/\/gpanda\.co\.kr\/api\/setMobileVPNConnect|https?:\/\/gpanda\.co\.kr.*?.*? url script-response-body Panda.js
+^https?:\/\/gpanda\.co\.kr\/api\/getMobileDeviceList|https?:\/\/gpanda\.co\.kr\/api\/getMobileMyInfo|https?:\/\/gpanda\.co\.kr\/api\/getMobileMyPaymentInfo|https?:\/\/gpanda\.co\.kr\/api\/setMobileVPNConnect|https?:\/\/gpanda\.co\.kr.*?.*? url script-response-body https://raw.githubusercontent.com/csk9166/QX/main/panda.js.js
 
 
 [mitm]
