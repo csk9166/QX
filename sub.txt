@@ -19,3 +19,28 @@ shadowsocks=108.181.132.203:7904, method=aes-256-cfb, password=qwerREWQ@@, fast-
 shadowsocks=112.213.102.228:10002, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=홍콩서버@
 shadowsocks=185.189.160.98:4658, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=대만서버 01@
 shadowsocks=108.181.1.245:41844, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=미국서버 02@
+shadowsocks=108.181.0.211:2002, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=미국서버 01@
+shadowsocks=221.150.109.89:52971, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 12
+shadowsocks=221.150.109.21:41105, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 19
+shadowsocks=210.217.18.69:50054, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=Giga MAX 03
+shadowsocks=125.141.31.72:26491, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 03
+shadowsocks=125.141.26.12:33551, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 08
+shadowsocks=221.168.44.72:12857, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=프리미엄 KT 29
+shadowsocks=203.234.238.146:8651, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 06
+shadowsocks=121.170.203.148:58120, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=KT MAX 09
+shadowsocks=210.217.18.68:23070, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=Giga MAX 02
+shadowsocks=125.141.31.100:65125, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 04
+shadowsocks=222.112.15.142:41377, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 14
+shadowsocks=221.150.109.20:62462, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 18
+shadowsocks=203.234.238.140:26503, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 07
+shadowsocks=125.141.26.10:33230, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 09
+shadowsocks=222.112.15.141:33478, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 16
+shadowsocks=221.150.109.19:39910, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 17
+shadowsocks=221.150.109.88:48188, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 13
+shadowsocks=218.234.149.9:2003, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=프리미엄 SK 18
+shadowsocks=221.150.109.90:30295, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 11
+shadowsocks=203.234.238.130:53175, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 05
+shadowsocks=125.141.31.74:46344, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 01
+shadowsocks=125.141.26.14:9910, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 10
+shadowsocks=210.217.18.70:27929, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=Giga MAX 01
+shadowsocks=125.141.31.103:9664, method=aes-256-cfb, password=qwerREWQ@@, fast-open=true, udp-relay=true, tag=4K MAX 02
